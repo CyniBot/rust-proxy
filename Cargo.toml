@@ -35,3 +35,7 @@ debug = false
 
 [profile.release.package."*"]
 opt-level = 3
+
+[[bin]]
+name = "handler"
+path = "api/handler.rs"
